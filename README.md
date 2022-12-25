@@ -8,7 +8,7 @@ Create Spotify App
 2. Create App
 
 
-![CreateApp]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://uploadi.ng/s38kIZMc) "Create App")
+![CreateApp]([https://uploadi.ng/s38kIZMc] "Create App")
 Download VolumeControler.py 
 Run `python -m pip install pyspoti` in cmd
 Then run VolumeControler You will be asked for for **Client Id**
