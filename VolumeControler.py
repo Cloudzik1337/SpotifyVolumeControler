@@ -3,7 +3,7 @@ import os, json
 
 
 
-
+os.system('title SpotifyVolumeControler')
 
 
 
@@ -59,8 +59,12 @@ def curr_soud(log):
             curren_author = current['item']['album']['artists'][0]['name']
         except TypeError:
             print(f'Currently Playing Nothin                        ', end='\r')
+            os.system('title SpotifyVolumeControler Currently Playing Nothin ')
+            
         print(f'Currently Playing {current_track} by {curren_author} on device named {device_name} Volume: {act}                        ', end='\r')
+        os.system(f'title SpotifyVolumeControler Currently Playing {current_track} by {curren_author} on device named {device_name} Volume: {act} ')
         time.sleep(1)
+
 
 threading.Thread(target=curr_soud, args=[log]).start()
 
