@@ -6,7 +6,8 @@ Spotify Volume Controler uses  [Spotipy](http://https://github.com/spotipy-dev/s
 Create Spotify App
 1. Go to [Spotify Developer](http://https://developer.spotify.com/dashboard/ "Spotify Developer") and login
 2. Create App![CreateApp](https://cdn.upload.systems/uploads/s38kIZMc.png "Create App")
-3. This Should Looks like this![](https://cdn.upload.systems/uploads/yMr2p6jY.png)
+3. This Should Looks like this
+![](https://cdn.upload.systems/uploads/yMr2p6jY.png)
 4. There is our **Client Id and Client Secret which we will use later**![](https://cdn.upload.systems/uploads/E3L1C3L7.png)
 
 5. Download VolumeControler.py 
