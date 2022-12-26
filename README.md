@@ -1,10 +1,10 @@
 # **SpotifyVolumeControler**
 Spotify Volume Controler allows you to control only spotify volume using wheel on keyboard
-Spotify Volume Controler uses  [Spotipy](https://https://github.com/spotipy-dev/spotipy "Spotipy") to connect to spotify and control volume over web
+Spotify Volume Controler uses  [Spotipy](https://github.com/spotipy-dev/spotipy "Spotipy") to connect to spotify and control volume over web
 
 ## Setup
 Create Spotify App
-1. Go to [Spotify Developer](http://https://developer.spotify.com/dashboard/ "Spotify Developer") and login
+1. Go to [Spotify Developer](https://developer.spotify.com/dashboard/ "Spotify Developer") and login
 2. Create App![CreateApp](https://cdn.upload.systems/uploads/s38kIZMc.png "Create App")
 3. This Should Looks like this.                                                     
 ![](https://cdn.upload.systems/uploads/yMr2p6jY.png)
