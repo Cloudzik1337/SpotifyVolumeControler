@@ -21,5 +21,5 @@ Create Spotify App
 12. After Logging in you will be redictered to localhost http://localhost/?code....... which u have to copy and paste to VolumeControl.py
 ![](https://cdn.upload.systems/uploads/kIqzdS20.png)
 13. If u have Done everything correctly you will see ![](https://cdn.upload.systems/uploads/k5ZYNs9z.png)
-14. Use **F6** - Mute **F7** - Vol Down **F9** - Vol Up
+14. Use **F6** - Mute **F7** - Vol Down **F8** - Vol Up
 15. And you are ready to go :D
