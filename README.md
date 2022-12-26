@@ -11,8 +11,8 @@ Create Spotify App
 ![](https://cdn.upload.systems/uploads/yMr2p6jY.png)
 4. There is our **Client Id and Client Secret which we will use later**![](https://cdn.upload.systems/uploads/E3L1C3L7.png)
 
-5. Download VolumeControler.py 
-6. Run `py -m pip install Spotipy` and `py -m pip install pynput` in cmd
+5. Download [VolumeControler.exe](https://github.com/Cloudzik1337/SpotifyVolumeControler/releases/download/1.0.1/VolumeControler.exe) or VolumeControler.py
+6. Note: If u downloaded exe skip this step Run `py -m pip install Spotipy` and `py -m pip install pynput` in cmd
 7. Then run VolumeControler You will be asked for for **Client Id**
 8. Copy **Client Id**, **Client Secret**
 9. Setup Deafult Volume (def vol is volume spotify will automaticly set after opening program)
