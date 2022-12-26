@@ -1,4 +1,5 @@
 # **SpotifyVolumeControler**
+![](https://i.imgur.com/jjdK2jl.mp4)
 KEEP IN MIND IT IS VERY EARLY PROJECT AND IT IS NOT FINISHED
 Spotify Volume Controler allows you to control only spotify volume using wheel on keyboard
 Spotify Volume Controler uses  [Spotipy](https://github.com/spotipy-dev/spotipy "Spotipy") to connect to spotify and control volume over web
