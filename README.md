@@ -11,9 +11,9 @@ Create Spotify App
 3. This Should Looks like this.                                                     
 ![](https://cdn.upload.systems/uploads/yMr2p6jY.png)
 4. There is our **Client Id and Client Secret which we will use later**![](https://cdn.upload.systems/uploads/E3L1C3L7.png)
-5. Click EDITS SETTINGS 
+5. Click EDITS SETTINGS \
 ![](https://cdn.upload.systems/uploads/DKkKlLkz.png)
-6. Add `http://localhost:8080` as Redirect URLs
+6. Add `http://localhost:8080` as Redirect URLs \
 ![](https://cdn.upload.systems/uploads/ycnQL1mU.png)
 6. Download [VolumeControler.exe](https://github.com/Cloudzik1337/SpotifyVolumeControler/releases/download/1.0.1/VolumeControler.exe) or VolumeControler.py
 7. Note: If u downloaded exe skip this step Run `py -m pip install Spotipy` and `py -m pip install pynput` in cmd
