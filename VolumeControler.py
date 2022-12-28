@@ -102,7 +102,7 @@ def curr_soud(log):
 
             time.sleep(0.15)
             
-        except typeError:
+        except TypeError:
 
             logging.debug('No device found')
             # If there is no current song, print that and set the window title accordingly
