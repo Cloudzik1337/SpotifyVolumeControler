@@ -10,9 +10,6 @@ VOLUME_UP_KEY = 'page up'
 VOLUME_DOWN_AMOUNT = -5
 VOLUME_DOWN_KEY = 'page down'
 
-volume_up_pressed = False
-volume_down_pressed = False
-
 # Spotify API credentials
 SPOTIFY_USERNAME = 'your-username' # Add your username here
 SPOTIFY_CLIENT_ID = 'your-id' # Add the client id you get here
@@ -24,6 +21,9 @@ SPOTIFY_SCOPE = 'user-modify-playback-state user-read-playback-state'
 
 # Global Spotify object
 spotify = None
+
+volume_up_pressed = False
+volume_down_pressed = False
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
