@@ -5,9 +5,6 @@ from spotipy.oauth2 import SpotifyOAuth
 import keyboard
 import logging
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-
 VOLUME_UP_AMOUNT = 5
 VOLUME_UP_KEY = 'page up'
 VOLUME_DOWN_AMOUNT = -5
@@ -27,6 +24,9 @@ SPOTIFY_SCOPE = 'user-modify-playback-state user-read-playback-state'
 
 # Global Spotify object
 spotify = None
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
 
 def refresh_token_periodically():
     global spotify
@@ -66,6 +66,8 @@ def change_volume(volume_change):
         spotify = get_spotify_object()
 
 def on_key_event(event):
+    global volume_up_pressed
+    global volume_down_pressed
     """Handle key press events."""
     if event.event_type == 'down':  # Trigger only on key down
         if event.name == VOLUME_UP_KEY and not volume_up_pressed:  # Volume up
