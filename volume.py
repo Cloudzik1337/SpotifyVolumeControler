@@ -71,7 +71,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-if LOG_LEVEL == logging.DEBUG:
+if LOG_LEVEL == logging.INFO:
     # Rotate debug.log if it grows too large
     if os.path.exists("debug.log") and os.path.getsize("debug.log") > MAX_LOG_SIZE:
         os.remove("debug.log")
